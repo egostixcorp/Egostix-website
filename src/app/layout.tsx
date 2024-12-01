@@ -8,7 +8,7 @@ import localFont from "next/font/local";
 
 // const inter = Inter({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const Barracude = localFont({
   src: [{ path: "./font/Barracuda-regular.ttf" }],
   // display: "swap",
@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}${Barracude.variable}`}>
+      <body className={`${inter.variable} ${Barracude.variable}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

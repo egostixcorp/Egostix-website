@@ -8,7 +8,7 @@ const Header = () => {
         className="flex h-full w-full items-center justify-between px-4 tablet:px-10"
       >
         <Logo />
-        <h1>content</h1>
+        <h1>Our ego</h1>
       </div>
     </div>
   );

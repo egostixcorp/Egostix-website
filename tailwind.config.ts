@@ -16,6 +16,7 @@ const config: Config = {
     },
     fontFamily: {
       ego: ["var(--font-barracuda)"],
+      inter: ["var(--font-inter)"],
     },
 
     extend: {
