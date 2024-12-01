@@ -14,14 +14,17 @@ const config: Config = {
       laptop: "1024px",
       desktop: "1280px",
     },
+    fontFamily: {
+      ego: ["var(--font-barracuda)"],
+    },
 
     extend: {
       colors: {
         EgostixBlue: "#001bff",
       },
-      fontFamily: {
-        ego: ["var(--font-space)"],
-      },
+      // fontFamily: {
+      //   ego: ["var(--font-barracuda)"],
+      // },
       animation: {
         "background-shine": "background-shine 5s linear infinite",
       },

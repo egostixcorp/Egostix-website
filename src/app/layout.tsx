@@ -8,17 +8,17 @@ import localFont from "next/font/local";
 
 // const inter = Inter({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
-// const inter = Inter({ subsets: ["latin"] });
-// const Barracude = localFont({
-//   src: "/BarracudaBold.ttf",
-//   display: "swap",
-//   variable: "--font-barracuda",
-// });
-const space = Space_Grotesk({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-space",
+const inter = Inter({ subsets: ["latin"] });
+const Barracude = localFont({
+  src: [{ path: "./font/Barracuda-regular.ttf" }],
+  // display: "swap",
+  variable: "--font-barracuda",
 });
+// const space = Space_Grotesk({
+//   subsets: ["latin"],
+//   display: "swap",
+//   variable: "--font-space",
+// });
 export const metadata: Metadata = {
   title: "Egostix Engineering",
   description:
@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.className}${space.variable}`}>
+      <body className={`${inter.className}${Barracude.variable}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
