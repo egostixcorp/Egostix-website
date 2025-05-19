@@ -8,7 +8,7 @@ const AboutPage = () => {
       <section className="mb-16 max-w-4xl text-center">
         <h1 className="font-inter text-3xl font-extrabold text-EgostixBlue tablet:text-5xl desktop:text-6xl">
           Engineering Purpose.
-          <br className="hidden tablet:block" />
+          <br />
           Empowering Vision.
         </h1>
       </section>
