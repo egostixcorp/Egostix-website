@@ -28,8 +28,13 @@ const config: Config = {
       // },
       animation: {
         "background-shine": "background-shine 5s linear infinite",
+        slideIn: "slideIn 0.5s ease-out forwards",
       },
       keyframes: {
+        slideIn: {
+          "0%": { transform: "translateX(50%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
         "background-shine": {
           from: {
             backgroundPosition: "0 0",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/lib/theme-provider";
 import Header from "@/components/Global/Header";
 import Footer from "@/components/Global/Footer";
+import ProductTeaserCard from "@/components/Card/product-card";
 import { Inter, Outfit, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
@@ -42,6 +43,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <ProductTeaserCard />
           <Footer />
         </ThemeProvider>
       </body>
