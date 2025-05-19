@@ -37,6 +37,7 @@ const ProductTeaserCard = () => {
             width={500}
             height={500}
             alt="Exelth"
+            priority
             className="size-full object-cover"
           />
         </div>
