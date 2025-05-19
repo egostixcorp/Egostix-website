@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "@/components/Global/Logo";
+import Link from "next/link";
 const Header = () => {
   return (
     <div id="wrapper" className="redd fixed top-0 h-16 w-full">
@@ -7,7 +8,9 @@ const Header = () => {
         id="content"
         className="flex h-full w-full items-center justify-between px-4 tablet:px-10"
       >
-        <Logo />
+        <Link href={"/"}>
+          <Logo />
+        </Link>
         <h1>Our ego</h1>
       </div>
     </div>
