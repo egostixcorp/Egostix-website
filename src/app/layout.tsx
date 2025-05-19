@@ -20,9 +20,10 @@ const Barracude = localFont({
 //   variable: "--font-space",
 // });
 export const metadata: Metadata = {
-  title: "Egostix Engineering",
+  metadataBase: new URL("https://egostix.com/"),
+  title: "Egostix Engineering — Empowering Individual Ego to Shape the World",
   description:
-    "We create groundbreaking tech that transforms everyday life. Our mission is simple: to innovate and build products that empower and elevate the human experience through technology.",
+    "We are a product innovation company committed to building bold, impactful technologies for the future of health, human life, and society.",
 };
 
 export default function RootLayout({
