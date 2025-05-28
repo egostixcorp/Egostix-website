@@ -2,7 +2,7 @@ import React from "react";
 
 const BuildPage = () => {
   return (
-    <main className="mt-28 flex w-full flex-col items-center px-4 py-16 tablet:px-8 desktop:px-16">
+    <main className="mt-28 flex font-inter w-full flex-col items-center px-4 py-16 tablet:px-8 desktop:px-16">
       {/* Hero Section */}
       <section className="mb-20 max-w-5xl text-center">
         <h1 className="text-3xl font-extrabold text-EgostixBlue tablet:text-5xl desktop:text-6xl">

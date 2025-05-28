@@ -7,7 +7,7 @@ import Image from "next/image";
 // import Icon from "@/components/Global/Icon";
 const AboutPage = () => {
   return (
-    <main className="mt-28 flex min-h-screen w-full flex-col items-center justify-center px-4 py-16 tablet:px-8 desktop:px-16">
+    <main className="mt-28 flex min-h-screen w-full flex-col items-center justify-center px-4 py-16 font-inter tablet:px-8 desktop:px-16">
       {/* Heading Section */}
       <div className="redd container flex flex-col items-center justify-center">
         <section className="mb-16 max-w-4xl text-center">

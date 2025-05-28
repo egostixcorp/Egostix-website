@@ -4,7 +4,7 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <main className="mt-28 flex w-full flex-col items-center px-4 py-16 tablet:px-8 desktop:px-16">
+    <main className="mt-28 flex w-full flex-col items-center px-4 py-16 font-inter tablet:px-8 desktop:px-16">
       {/* Hero Section */}
       <section className="mb-12 max-w-3xl text-center">
         <h1 className="text-3xl font-extrabold text-EgostixBlue tablet:text-5xl">
@@ -82,7 +82,7 @@ const ContactPage = () => {
         </section>
 
         {/* Company Info */}
-        <section className="flex flex-col mt-20 items-start justify-center text-center text-sm text-gray-600">
+        <section className="mt-20 flex flex-col items-start justify-center text-center text-sm text-gray-600">
           <p className="mb-1">Egostix Engineering Private Limited</p>
           <p className="mb-1">
             Registered in India · CIN and GST details available on request
