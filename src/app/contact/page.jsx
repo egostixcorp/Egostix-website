@@ -94,7 +94,7 @@ const ContactPage = () => {
             </a>
           </p>
           <p className="mb-1">
-            Phone: +91 12345 67890 (Business inquiries only)
+            Phone: +91 73192 74817 (Business inquiries only)
           </p>
           <p className="mt-4 text-xs text-gray-400">
             © {new Date().getFullYear()} Egostix Engineering. All rights
