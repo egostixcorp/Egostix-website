@@ -4,13 +4,13 @@ const BuildPage = () => {
   return (
     <main className="mt-28 flex font-inter w-full flex-col items-center px-4 py-16 tablet:px-8 desktop:px-16">
       {/* Hero Section */}
-      <section className="mb-20 max-w-5xl text-center">
-        <h1 className="text-3xl font-extrabold text-EgostixBlue tablet:text-5xl desktop:text-6xl">
+      <section className="mb-20 redd max-w-4xl text-center">
+        <h1 className="text-3xl redd font-extrabold text-EgostixBlue tablet:text-5xl desktop:text-6xl">
           We Don&apos;t Just Build Products
           <br />
           We Engineer Possibility.
         </h1>
-        <p className="mt-4 px-52 text-base text-gray-700 tablet:text-lg">
+        <p className="mt-4 laptop:px-52 text-base text-gray-700 tablet:text-lg">
           At Egostix, we design and develop technology that solves real problems
           and advances human potential — responsibly, creatively, and at scale.
         </p>

@@ -9,10 +9,10 @@ const Header = () => {
   const path = usePathname();
   const basePath = "/" + path.split("/").filter(Boolean).slice(0, 2).join("/");
   return (
-    <div id="wrapper" className="redd fixed top-0 h-16 w-full">
+    <div id="wrapper" className="redd fixed top-0 h-16 w-full p-2">
       <div
         id="content"
-        className="flex h-full w-full items-center justify-between px-4 tablet:px-10"
+        className="redd flex h-full w-full items-center justify-between rounded-3xl bg-white/80 px-4 shadow shadow-blue-100 border backdrop-blur-md tablet:px-10"
       >
         <Link href={"/"}>
           <Logo />
