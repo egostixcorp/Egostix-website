@@ -18,7 +18,7 @@ const ContactPage = () => {
       </section>
       <div className="flex w-full flex-col-reverse items-start justify-center gap-10 tablet:flex-row">
         {/* Contact Form */}
-        <section className="mb-20 w-full max-w-3xl  rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+        <section className="mb-20 w-full max-w-3xl rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
           <form
             className="space-y-6"
             onSubmit={(e) => {
@@ -82,15 +82,16 @@ const ContactPage = () => {
         </section>
 
         {/* Company Info */}
-        <section className="mt-20 redd flex flex-col items-start justify-center text-center text-sm text-gray-600">
+        <section className="redd mt-20 flex flex-col items-start justify-center text-center text-sm text-gray-600">
           <p className="mb-1 font-bold">Egostix Engineering Private Limited</p>
-          <p className="mb-1 redd text-left">
-            Registered in India · <br /> CIN and GST details available on request
+          <p className="redd mb-1 text-left">
+            Registered in India · <br /> CIN and GST details available on
+            request
           </p>
           <p className="mb-1">
             Email:{" "}
-            <a href="mailto:hello@egostix.com" className="text-EgostixBlue">
-              hello@egostix.com
+            <a href="mailto:contact@egostix.com" className="text-EgostixBlue">
+              contact@egostix.com
             </a>
           </p>
           <p className="mb-1">
