@@ -1,9 +1,11 @@
 import React from "react";
 import HeroSection from "@/components/Section/HeroSection";
+import CompanySection from "@/components/Section/CompanySection";
 const Home = () => {
   return (
-    <div className="font-inter flex min-h-screen w-full flex-col items-center justify-center px-[8%] dark:bg-black">
+    <div className="reds flex min-h-screen w-full flex-col items-center justify-center tablet:px-[15%] px-2 font-inter dark:bg-black">
       <HeroSection />
+      <CompanySection />
     </div>
   );
 };
