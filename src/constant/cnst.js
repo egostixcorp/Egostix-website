@@ -1,1 +1,1 @@
-export const ExelthUrl = "https://exelth.egostix.com";
+export const ExelthUrl = "https://exelth.com";

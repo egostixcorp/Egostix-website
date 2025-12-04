@@ -3,7 +3,7 @@ import React from "react";
 // import Image from "next/image";
 const Logo = () => {
   return (
-    <div className="redd flex h-16 w-32 items-center justify-center">
+    <div className="redd flex  items-center justify-center">
       {/* <Image
         alt="Egostix"
         src={"/brand/egostix.png"}

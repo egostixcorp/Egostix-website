@@ -58,7 +58,7 @@ const BuildPage = () => {
           ].map((step, index) => (
             <div
               key={index}
-              className="rounded-2xl border border-gray-200 p-6 shadow-sm transition hover:shadow-md"
+              className=" border border-gray-200 p-6 shadow-sm transition hover:shadow-md"
             >
               <h3 className="mb-2 text-lg font-semibold text-EgostixBlue">
                 {step.title}

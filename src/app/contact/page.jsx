@@ -18,7 +18,7 @@ const ContactPage = () => {
       </section>
       <div className="flex w-full flex-col-reverse items-start justify-center gap-10 tablet:flex-row">
         {/* Contact Form */}
-        <section className="mb-20 w-full max-w-3xl rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+        <section className="mb-20 w-full max-w-3xl  border border-gray-200 bg-white p-6 shadow-sm">
           <form
             className="space-y-6"
             onSubmit={(e) => {

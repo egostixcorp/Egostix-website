@@ -18,7 +18,7 @@ const ProductTeaserCard = () => {
   if (!visible) return null;
 
   return (
-    <div className="animate-slideIn fixed bottom-4 right-4 z-50 max-w-xs rounded-md border border-gray-200 bg-white shadow-lg transition-all">
+    <div className="fixed bottom-4 right-4 z-50 max-w-xs animate-slideIn border border-gray-200 bg-white shadow-lg transition-all">
       <div className="relative p-4">
         {/* Dismiss Button */}
         <button

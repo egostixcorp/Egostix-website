@@ -1,7 +1,8 @@
 import React from "react";
-
+// import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
 const HeroSection = () => {
   return (
+    // <BackgroundRippleEffect>
     <section className="flex h-screen w-full items-center justify-center px-4">
       <div className="max-w-3xl space-y-4 text-center">
         <h1 className="font-ego text-3xl font-extrabold text-EgostixBlue tablet:text-5xl desktop:text-7xl">
@@ -14,6 +15,7 @@ const HeroSection = () => {
         </p>
       </div>
     </section>
+    // </BackgroundRippleEffect>
   );
 };
 
