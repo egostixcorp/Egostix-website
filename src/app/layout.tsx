@@ -25,6 +25,46 @@ export const metadata: Metadata = {
   title: "Egostix Engineering — Empowering Individual Ego to Shape the World",
   description:
     "We are a product innovation company committed to building bold, impactful technologies for the future of health, human life, and society.",
+  keywords: [
+    "Egostix",
+    "Egostix Engineering",
+    "intelligence infrastructure",
+    "cross-industry platform",
+    "healthcare technology",
+    "defence intelligence",
+    "industrial automation",
+    "robotics systems",
+    "AI decision engine",
+    "data interoperability",
+    "real-time operations platform",
+    "digital nervous system",
+  ],
+  authors: [{ name: "Egostix Engineering", url: "https://www.egostix.com/" }],
+  creator: "Egostix Engineering",
+  publisher: "Egostix Engineering",
+  openGraph: {
+    type: "website",
+    url: "https://www.egostix.com/",
+    title: "Egostix Engineering — Empowering Individual Ego to Shape the World",
+    description:
+      "We are a product innovation company committed to building bold, impactful technologies for the future of health, human life, and society.",
+    siteName: "Egostix Engineering",
+    // images: [
+    //   {
+    //     url: "/og/egostix-og.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Egostix Engineering — India's Cross-Industry Intelligence Network",
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Egostix Engineering | India's Intelligence Network",
+  //   description:
+  //     "Unified data architecture, AI decision engine, and real-time interoperability powering the next generation of India's critical industries.",
+  //   images: ["/og/egostix-og.png"],
+  // },
 };
 
 export default function RootLayout({
