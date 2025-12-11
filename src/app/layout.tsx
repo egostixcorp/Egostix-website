@@ -21,7 +21,7 @@ const Barracude = localFont({
 //   variable: "--font-space",
 // });
 export const metadata: Metadata = {
-  metadataBase: new URL("https://egostix.com/"),
+  metadataBase: new URL("https://www.egostix.com/"),
   title: "Egostix Engineering — Empowering Individual Ego to Shape the World",
   description:
     "We are a product innovation company committed to building bold, impactful technologies for the future of health, human life, and society.",
