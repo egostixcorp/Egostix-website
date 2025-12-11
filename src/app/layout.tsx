@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     "We are a product innovation company committed to building bold, impactful technologies for the future of health, human life, and society.",
   keywords: [
     "Egostix",
+    "Egostic",
     "Egostix Engineering",
     "intelligence infrastructure",
     "cross-industry platform",
