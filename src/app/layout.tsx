@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { ThemeProvider } from "@/lib/theme-provider";
 import Header from "@/components/Global/Header";
 import Footer from "@/components/Global/Footer";
@@ -84,6 +85,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <GoogleAnalytics gaId="G-DKG45JY2K2" />
           <ProductTeaserCard />
           <Footer />
         </ThemeProvider>
