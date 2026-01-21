@@ -8,7 +8,7 @@ const CompanySection = () => {
       <h1 className="w-full text-left text-2xl tablet:text-3xl laptop:text-6xl">
         <span className="font-ego">Our</span> Innovations
       </h1>
-      <Link href={"https://www.exelth.com/"} target="_blank" className="group">
+      <Link href={"https://www.exelth.com/homepage"} target="_blank" className="group">
         <div className="flex h-fit w-full items-center justify-center laptop:h-96">
           <div className="w-full overflow-hidden border bg-green-600 laptop:h-96">
             <Image
