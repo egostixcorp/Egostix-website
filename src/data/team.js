@@ -1,6 +1,6 @@
 export const Team = [
   {
-    name: "Arun Biswas",
+    name: "Arun Roy",
     photo: "/team/arun.png",
     designation: "CEO & Co-founder",
     twitter: "https://x.com/aruunroy",
